@@ -1,8 +1,7 @@
 /**
- * JavaDocs go here
+ * JavaDocs go here.
  * 
  */
-
 public class UserData {
     //Put all instance variables here
     public double dailyDrivingHours;
@@ -13,7 +12,10 @@ public class UserData {
         this.dailyDrivingHours = dailyDrivingHours;
     }
 
-    //DailyDrivingHours 'getter' command
+    /**
+     * The 'getter' method for the dailyDrivingHours variable
+     * @return the dailyDrivingHours value from the object
+     */
     public double getDailyDrivingHours () {
         return dailyDrivingHours;
     }
