@@ -6,8 +6,10 @@ public class UserData {
     //Put all instance variables here
     public double dailyDrivingHours;
 
-    //Constructor
-    //Put any values that you want to enter upon object creation here - e.g. dailyDrivingHours
+    /**
+     * The constructor for the UserData class
+     * @param dailyDrivingHours the average nuber of hours driven each day
+     */
     public UserData(double dailyDrivingHours) {
         this.dailyDrivingHours = dailyDrivingHours;
     }
@@ -18,5 +20,13 @@ public class UserData {
      */
     public double getDailyDrivingHours () {
         return dailyDrivingHours;
+    }
+    
+    /**
+     * Calculates the net carbon impact of the user
+     * @return the net carbon impact of the user
+     */
+    public double getNetCarbonImpact () {
+        return 0.0;
     }
 }
