@@ -4,7 +4,7 @@
  */
 public class UserData {
     //Put all instance variables here
-    public double dailyDrivingHours;
+    private double dailyDrivingHours;
 
     /**
      * The constructor for the UserData class
